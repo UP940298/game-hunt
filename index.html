@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat chooses</title>
+</head>
+
+<body>
+    <div id="message"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyCuNv-uKEUc7LNqUMQ8dRavQ6i2TsTnHQc",
+            authDomain: "chatchoose-e9faf.firebaseapp.com",
+            projectId: "chatchoose-e9faf",
+            storageBucket: "chatchoose-e9faf.appspot.com",
+            messagingSenderId: "661418543775",
+            appId: "1:661418543775:web:ba2fb5d69016522be030aa"
+
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="tmi.min.js"></script>
+    <script src="gameList.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
